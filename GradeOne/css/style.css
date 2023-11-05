@@ -48,6 +48,13 @@ body {
      line-height: 1.80857;
      font-weight: normal;
 }
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
 
 a {
      color: #1f1f1f;
