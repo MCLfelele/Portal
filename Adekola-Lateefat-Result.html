@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>MCL</title>
+      <title>MCL - Result</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -21,16 +21,41 @@
       <!-- fevicon -->
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
       <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style>
+         /* Basic table styling in case CSS files are missing */
+         table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+         }
+         th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+         }
+         th {
+            background-color: #f2f2f2;
+         }
+         .loader_bg {
+            display: none; /* Hide loader initially */
+         }
+         .titlepage h2 {
+            margin-bottom: 20px;
+         }
+         p {
+            margin-bottom: 15px;
+         }
+      </style>
    </head>
    <!-- body -->
    <body class="main-layout inner_page">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+         <div class="loader"><img src="images/loading.gif" alt="Loading..."/></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -41,7 +66,7 @@
                   <div class="full">
                      <div class="center-desk">
                         <div class="logo">
-                           <a href=""><img src="images/monterssori-careland-logo.png" alt="#" /></a>
+                           <a href=""><img src="images/monterssori-careland-logo.png" alt="MCL Logo" /></a>
                         </div>
                      </div>
                   </div>
@@ -82,79 +107,64 @@
          </div>
       </div>
       <!-- end header inner -->
+      
       <!-- shop -->
       <div class="shop">
          <div class="container-fluid">
             <div class="row d_flex d_grid">
-              
-               <div class="col-md-5 order_1_mobile">
-                  &nbsp;
-                  <p>120 Akorede Layout Felele, Ibadan <br>Tel: 07053001294, 08143149947</p>
-                  <div class="titlepage p1 ">
-                     <h2>Result for <br>Adekola Lateefat</h2><br>
-                     <h2> JSS ONE </h2>
-                     <table>
-                        <p>Continuous Assessment Scores for 1st Term  ..................... </p>
-                         
-                       <!-- Attendance Table-->
-                     &nbsp;
-                     &nbsp;
+               <div class="col-md-12">
+                  <div class="titlepage p1">
+                     <p>120 Akorede Layout Felele, Ibadan <br>Tel: 07053001294, 08143149947</p>
+                     <h2>Result for <br>Adekola Lateefat</h2>
+                     <h2>JSS ONE</h2>
+                     
+                     <p>Continuous Assessment Scores for 1st Term ..................... </p>
+                     
+                     <!-- Attendance Table-->
                      <table>
                        <tr>
-                          <th colspan="16">Attendance</th>
+                          <th colspan="2">Attendance</th>
                         </tr>
-                       
                         <tr>
-                          <h1></h1>
-                          <th>Frequencies &nbsp;</th>
-                          <th>School Attendance &nbsp;</th>
-                         
-                          
-                         
+                          <th>Frequencies</th>
+                          <th>School Attendance</th>
                         </tr>
                         <tr>
                           <td>No. of times school opened</td>
                           <td>122</td> 
-                                         
-                       </tr>
+                        </tr>
                        <tr>
                           <td>No. of times present</td>
                           <td>120</td> 
-                                         
                        </tr>
-                      </table>
-                      &nbsp;
-                      &nbsp;
+                     </table>
 
-
-                       <!-- Result Table-->
-
+                     <!-- Result Table-->
                      <table>
                         <tr>
-                           <th colspan="17">Cognitive Skill</th>
-                           <th rowspan="2"></th>
-                           <th rowspan="2"></th>
+                           <th colspan="19">Cognitive Skill</th>
                          </tr>
                          <tr>
-                           <th>English &nbsp;</th>
-                           <th>Mathematics &nbsp;</th>
-                           <th>Biology &nbsp;</th>
-                           <th>Chemistry &nbsp;</th>
-                           <th>Physics &nbsp;</th>
-                           <th>Geography &nbsp;</th>
-                           <th>History &nbsp;</th>
-                           <th>Business Studies &nbsp;</th>
-                           <th>Lit in English &nbsp;</th>
-                           <th>BSTC &nbsp;</th>
-                           <th>N. Value &nbsp;</th>
-                           <th>CRS &nbsp;</th>
-                           <th>CCA &nbsp;</th>
-                           <th>PVS &nbsp;</th>
-                           <th>Yoruba &nbsp;</th>
-                           <th>Music &nbsp;</th>
-                           <th>Phonics  &nbsp;</th>
-                           <th>Yoruba  &nbsp;</th>
-                          
+                           <th>English</th>
+                           <th>Mathematics</th>
+                           <th>Biology</th>
+                           <th>Chemistry</th>
+                           <th>Physics</th>
+                           <th>Geography</th>
+                           <th>History</th>
+                           <th>Business Studies</th>
+                           <th>Lit in English</th>
+                           <th>BSTC</th>
+                           <th>N. Value</th>
+                           <th>CRS</th>
+                           <th>CCA</th>
+                           <th>PVS</th>
+                           <th>Yoruba</th>
+                           <th>Music</th>
+                           <th>Phonics</th>
+                           <th>Yoruba</th>
+                           <th>Category</th>
+                           <th>Term</th>
                          </tr>
                          <tr>
                            <td>100</td>
@@ -176,7 +186,6 @@
                            <td>100</td>
                            <td>100</td>
                            <td>Marks Obtainable</td>
-                           
                            <td>1st Half</td>
                          </tr>
                          <tr>
@@ -198,12 +207,9 @@
                            <td>75</td>
                            <td>-</td>
                            <td>-</td>
-                            <td>Marks Obtainable</td>
-                           
+                           <td>Marks Obtained</td>
                            <td>1st Half</td>
-                      
                         </tr>
-                                                                                                                           
                         <tr>
                            <td>100</td>
                            <td>100</td>
@@ -223,9 +229,8 @@
                            <td>100</td>
                            <td>100</td>
                            <td>100</td>
-                          <td>Marks Obtainable</td>
-                          
-                          <td>2nd Half</td>
+                           <td>Marks Obtainable</td>
+                           <td>2nd Half</td>
                         </tr>
                         <tr>
                           <td>56</td>
@@ -247,7 +252,6 @@
                           <td>-</td>
                           <td>-</td>
                           <td>Marks Obtained</td>
-                          
                           <td>2nd Half</td>
                         </tr>
                         <tr>
@@ -269,9 +273,8 @@
                            <td>100</td>
                            <td>100</td>
                            <td>100</td>
-                          <td>Marks Obtainable</td>
-                          
-                          <td>Final Result</td>
+                           <td>Marks Obtainable</td>
+                           <td>Final Result</td>
                         </tr>
                         <tr>
                           <td>68</td>
@@ -293,10 +296,8 @@
                           <td>-</td>
                           <td>-</td>
                           <td>Marks Obtained</td>
-                          
                           <td>Final Result</td>
                         </tr>
-                        
                         <tr>
                           <td>C</td>
                           <td>B</td>
@@ -313,34 +314,25 @@
                           <td>A</td>
                           <td>A</td>
                           <td>-</td>
+                          <td>A</td>
                           <td>-</td>
                           <td>-</td>
-                          <td>-</td>
-                          <td>Teachers Remarks</td>                           
+                          <td colspan="2">Teachers Remarks</td>                           
                         </tr>
-                     
                      </table>
-                     
-                      &nbsp;
-                      &nbsp;
 
-
-                 <!-- Psychomotor Skills Table-->
-                      <table>
-                       <h1></h1>
+                     <!-- Psychomotor Skills Table-->
+                     <table>
                        <tr>
-                         <th colspan="16">Psychomotor Skills</th>
+                         <th colspan="6">Psychomotor Skills</th>
                        </tr>
                        <tr>
-                         <th></th>
+                         <th>Skill</th>
                          <th>5</th>
                          <th>4</th>
                          <th>3</th>
                          <th>2</th>
                          <th>1</th>
-                         
-                         
-                         
                        </tr>
                        <tr>
                          <td>Verbal Fluency</td>
@@ -349,7 +341,6 @@
                          <td></td>
                          <td></td>
                          <td></td>
-                         
                        </tr>
                        <tr>
                           <td>Reading</td>
@@ -358,7 +349,6 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Sport</td>
@@ -367,27 +357,21 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                          
                         </tr>
-                       
                      </table>
-                     &nbsp;
-                      &nbsp;
+
+                     <!-- Affective Areas Table-->
                      <table>
-                       <h1></h1>
                        <tr>
-                         <th colspan="16">Affective Areas</th>
+                         <th colspan="6">Affective Areas</th>
                        </tr>
                        <tr>
-                         <th></th>
+                         <th>Trait</th>
                          <th>5</th>
                          <th>4</th>
                          <th>3</th>
                          <th>2</th>
                          <th>1</th>
-                         
-                         
-                         
                        </tr>
                        <tr>
                          <td>Puntuality</td>
@@ -395,9 +379,7 @@
                          <td></td>
                          <td></td>
                          <td></td>
-                       
                          <td></td>
-                         
                        </tr>
                        <tr>
                           <td>Neatness</td>
@@ -405,9 +387,7 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Politeness</td>
@@ -415,9 +395,7 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Cooperation with others</td>
@@ -425,9 +403,7 @@
                           <td>*</td>
                           <td></td>
                           <td></td>
-                       
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Leadership</td>
@@ -435,9 +411,7 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                         
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Helping others</td>
@@ -445,9 +419,7 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Emotional Stability</td>
@@ -455,9 +427,7 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Health</td>
@@ -465,9 +435,7 @@
                           <td></td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Attitude to class work</td>
@@ -475,9 +443,7 @@
                           <td>*</td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Attentiveness</td>
@@ -485,9 +451,7 @@
                           <td>*</td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                         <tr>
                           <td>Perseverance</td>
@@ -495,61 +459,70 @@
                           <td>*</td>
                           <td></td>
                           <td></td>
-                          
                           <td></td>
-                          
                         </tr>
                      </table>
-                     &nbsp;
-                      &nbsp;
-                  <!-- Scale Table-->
-                      <table>
-                       <h1></h1>
+
+                     <!-- Scale Table-->
+                     <table>
                        <tr>
-                         <th colspan="16">Scale</th>
+                         <th colspan="2">Scale</th>
                        </tr>
-                       
                        <tr>
                          <td>5</td>
                          <td>Excellent</td>
-                         
-                        
-                         
                        </tr>
                        <tr>
                           <td>4</td>
                           <td>V.Good</td>
-                      
-                         
-                          
-                          
                         </tr>
                         <tr>
                           <td>3</td>
                           <td>Good</td>
-                         
-                        
-                          
                         </tr>
                         <tr>
                           <td>2</td>
                           <td>Average</td>
-                         
-                         
-                          
                         </tr>
                         <tr>
                           <td>1</td>
                           <td>Fair</td>
-                         
-                         
-                          
                         </tr>
                      </table>
-                     <p>Class Teachers Comment: A Good result.<br></p>
-                     &nbsp;
-                     &nbsp;
-                     <p>Head Teachers Comment: A good performance, you can perform better.<br></p>
-                        
-                   
+                     
+                     <p>Class Teachers Comment: A Good result.</p>
+                     <p>Head Teachers Comment: A good performance, you can perform better.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end shop -->
 
+      <!-- footer -->
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p>&copy; 2025 MCL - Montessori Careland. All Rights Reserved.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- JavaScript -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         // Simple script to hide loader when page loads
+         document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.loader_bg').style.display = 'none';
+         });
+         
+         // Print functionality (optional)
+         function printResult() {
+            window.print();
+         }
+      </script>
+   </body>
+</html>
